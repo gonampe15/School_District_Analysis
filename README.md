@@ -25,6 +25,33 @@ Maria has asked us for an analysis on the school district she works in. The main
 
 4. How does replacing the ninth-grade scores affect the following:
    * Math and reading scores by grade
+     * In the original analysis, Thomas High School had 83.6 math average and 83.7 reading average for the 9th grade tests. Now the averages are no longer available since we replaced with null values.
+     * Adjusted Math scores   
+       ![New Math](/Resources/new_math_df.png)
+     * Adjusted Reading scores  
+       ![New Reading](/Resources/new_reading_df.png)
+     
    * Scores by school spending
+     * Replacing the 9th grade scores caused a very small impact in the scores by school spending.
+      * Original Scores by School Spending
+        ![Original Results](/Resources/old_spending_df.png)
+      * Adjusted Scores by School Spending      
+        ![New Results](/Resources/new_spending_df.png) 
    * Scores by school size
+     * Replacing the 9th grade scores caused a very small impact in the scores by school size.
+      * Original Scores by School Size
+        ![Original Results](/Resources/old_size_df.png)
+      * Adjusted Scores by School Size
+        ![New Results](/Resources/new_size_df.png)
    * Scores by school type
+     * Replacing the 9th grade scores caused a very small impact in the scores by school type.
+      * Original Scores by School Type
+        ![Original Results](/Resources/old_type_df.png)
+      * Adjusted Scores by School Type
+        ![New Results](/Resources/new_type_df.png)
+## Summary
+Four changes that occurred after updating the math and reading scores were:
+1. The overall passing rate for Thomas High School dropped dramatically from 91% to 65%.
+2. In addition to the overall passing rate, the school's math and reading averages also saw a major shift.
+3. In the district rankings, Thomas High School's ranking dropped from 2nd to 8th.
+4. Without the 9th graders math and reading scores, Thomas High School is not as competitive as the other charter schools.
